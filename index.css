@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  background-image: url("moviebackground2.jpg");
+  background-repeat:no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+h2 {
+  margin: auto 0px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+section {
+  width: fit-content;
+  background-color: lightgrey;
+  padding: 50px;
+  min-width: 33%;
+  border-radius: 20px;
+}
+
+section a {
+  display: block;
+  padding: 10px 20px;
+  width: fit-content;
+  float: right;
+  color: black;
+  text-decoration: none;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+section h2 {
+  border-bottom: 2px solid black;
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+header {
+  background-color: black;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  border-left: 2px solid;
+  border-bottom: 2px solid black;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 10px 50px 10px 10px;
+}
+
+#title {
+  color: white;
+}
+
+footer {
+  padding: 50px;
+  text-align: center;
+}
